@@ -16,5 +16,8 @@ void main()
 	
 	auto r = cpr::Get(cpr::Url{ "http://185.87.48.87/api/ìusictrackinfo/getallproducts/getallproducts" });
 
+	auto& gg = r.text;
+	cout << gg << endl;
+	std::cout << "Returned Status:" << r.status_code << std::endl;
 
 }
