@@ -19,4 +19,7 @@
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Downloads\example-cmake-fetch-content-main\example-cmake-fetch-content-main\CMakeLists.txt" />
+  </ItemGroup>
 </Project>
